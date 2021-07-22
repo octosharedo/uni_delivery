@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="deliveryDB" id="E20C7543-D15B-6086-314B-AB0D17F83FA6" version="3.5">
+<createdBy>sharedo</createdBy>
+<createdTime>2020-05-28 10:14:50 UTC</createdTime>
+<ownerDesignName>deliveryDB</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>E20C7543-D15B-6086-314B-AB0D17F83FA6</designId>
+</OSDM_Design>

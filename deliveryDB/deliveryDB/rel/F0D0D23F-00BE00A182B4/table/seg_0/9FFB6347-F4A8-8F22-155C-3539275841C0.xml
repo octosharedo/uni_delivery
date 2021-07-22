@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9FFB6347-F4A8-8F22-155C-3539275841C0" name="DLV">
+<createdBy>sharedo</createdBy>
+<createdTime>2020-05-28 16:42:18 UTC</createdTime>
+<generatorID>2FC54EA7-26BE-9914-5F88-38EE856CA5C3</generatorID>
+<ownerDesignName>deliveryDB</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="5ADD859F-C001-E282-C035-92A48AF348F4">
+<createdBy>sharedo</createdBy>
+<createdTime>2020-05-28 16:42:18 UTC</createdTime>
+<generatorID>8F236A88-D298-FC36-5FD2-E7AFBE0E89FD</generatorID>
+<ownerDesignName>deliveryDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>7 CHAR</dataTypeSize>
+<ownDataTypeParameters>7 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Name" id="1943A3E5-145A-F974-3537-06A02CA52BF8">
+<createdBy>sharedo</createdBy>
+<createdTime>2020-05-28 16:42:18 UTC</createdTime>
+<generatorID>5BF4993C-4EC1-B85F-53F8-AA6651A9703E</generatorID>
+<ownerDesignName>deliveryDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Phone" id="6F96F938-1E1B-486E-29D3-F579FEEB4855">
+<createdBy>sharedo</createdBy>
+<createdTime>2020-05-28 16:42:18 UTC</createdTime>
+<generatorID>B91BD8A5-E9B3-2507-9BEF-419287D00B4C</generatorID>
+<ownerDesignName>deliveryDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>11 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Employment_Date" id="A91E682E-5C76-B056-3621-2525032E91BC">
+<createdBy>sharedo</createdBy>
+<createdTime>2020-05-28 16:42:18 UTC</createdTime>
+<generatorID>29DAF431-ED28-06E3-2BFC-F12089E4F986</generatorID>
+<ownerDesignName>deliveryDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Payment_Info" id="9FF1CC7D-DE55-A63C-234B-1452168B318B">
+<createdBy>sharedo</createdBy>
+<createdTime>2020-05-28 16:42:18 UTC</createdTime>
+<generatorID>118B6578-5FCC-6407-6487-4FE59D4E881D</generatorID>
+<ownerDesignName>deliveryDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Free" id="29362C1F-BFCE-D0F5-E715-B75C1B1A90DD">
+<createdBy>sharedo</createdBy>
+<createdTime>2020-05-28 16:42:18 UTC</createdTime>
+<generatorID>B0C57318-4D5F-C1A7-DA5A-EE81447FA863</generatorID>
+<ownerDesignName>deliveryDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT033</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5AC50E98-423C-E975-8C20-66A5F0D4126D" name="DLV_PK">
+<createdBy>sharedo</createdBy>
+<createdTime>2020-05-28 16:42:18 UTC</createdTime>
+<generatorID>297F9E74-2C2F-9C3A-EF7E-E4A460243280</generatorID>
+<ownerDesignName>deliveryDB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5ADD859F-C001-E282-C035-92A48AF348F4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5543A6A2-69CA-DDE4-8C23-D06054599E69" name="DLV_Phone__UN">
+<createdBy>sharedo</createdBy>
+<createdTime>2020-05-28 16:45:58 UTC</createdTime>
+<ownerDesignName>deliveryDB</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6F96F938-1E1B-486E-29D3-F579FEEB4855"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

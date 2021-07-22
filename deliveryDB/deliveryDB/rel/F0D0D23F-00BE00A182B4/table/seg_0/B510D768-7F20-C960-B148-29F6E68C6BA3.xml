@@ -1,0 +1,163 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B510D768-7F20-C960-B148-29F6E68C6BA3" name="ORD">
+<createdBy>sharedo</createdBy>
+<createdTime>2020-05-28 16:42:18 UTC</createdTime>
+<generatorID>E3521542-A0F1-744D-2D12-34FB1ADDCE1F</generatorID>
+<ownerDesignName>deliveryDB</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="30B5A3F1-BFC4-5348-898B-509063DEAF46">
+<createdBy>sharedo</createdBy>
+<createdTime>2020-05-28 16:42:18 UTC</createdTime>
+<generatorID>4BA0AF30-15B3-43A5-7732-D1CD18FA02D6</generatorID>
+<ownerDesignName>deliveryDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>7 CHAR</dataTypeSize>
+<ownDataTypeParameters>7 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cost" id="A7A8250D-350E-8315-A3A7-8E4FA8AC5839">
+<createdBy>sharedo</createdBy>
+<createdTime>2020-05-28 16:42:18 UTC</createdTime>
+<generatorID>AE5C456F-39CA-0244-90D1-F2E0A605EFC7</generatorID>
+<ownerDesignName>deliveryDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,7,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Address" id="135D54A4-6424-7C6C-FAE8-BDA9D31D8E8E">
+<createdBy>sharedo</createdBy>
+<createdTime>2020-05-28 16:42:18 UTC</createdTime>
+<generatorID>019F134A-AE15-2EAD-DDEA-F775A0784F90</generatorID>
+<ownerDesignName>deliveryDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Payment" id="8A5E2EB7-772B-DA1E-AE61-8A0371DFB0B2">
+<createdBy>sharedo</createdBy>
+<createdTime>2020-05-28 16:42:18 UTC</createdTime>
+<generatorID>D6B9720D-C5AE-4F8C-21A8-D500E49CE0B1</generatorID>
+<ownerDesignName>deliveryDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Complete" id="9C4F7767-5E69-1EDC-066A-6FFDF2B420C6">
+<createdBy>sharedo</createdBy>
+<createdTime>2020-05-28 16:42:18 UTC</createdTime>
+<generatorID>7C847EBE-AEFC-2E86-5742-52CEF719BB13</generatorID>
+<ownerDesignName>deliveryDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT033</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DateTime" id="E8813417-B29E-BF1F-CDB6-591A95FD09A8">
+<createdBy>sharedo</createdBy>
+<createdTime>2020-05-28 16:42:18 UTC</createdTime>
+<generatorID>431239E9-2FBB-2F31-9BA3-CC42AB7616D1</generatorID>
+<ownerDesignName>deliveryDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DeliveryTime" id="5FCF18BA-8C03-487A-361A-5A8A5D1811EF">
+<createdBy>sharedo</createdBy>
+<createdTime>2020-05-28 16:42:18 UTC</createdTime>
+<generatorID>D76CB3EE-5AB5-C5D8-DB1A-E70AA39D0E38</generatorID>
+<ownerDesignName>deliveryDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DLV_ID" id="0643DBA0-0CC2-E0B0-E16F-C629CCE7C5C1">
+<createdBy>sharedo</createdBy>
+<createdTime>2020-05-28 16:42:18 UTC</createdTime>
+<generatorID>9F94A013-35D1-85D0-4D37-54569B083DD1</generatorID>
+<ownerDesignName>deliveryDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>7 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="77C177D6-8CB2-5206-1252-634721630D98" referredColumn="5ADD859F-C001-E282-C035-92A48AF348F4"/>
+</associations>
+</Column>
+<Column name="CLT_ID" id="35337EC8-973C-D265-43F9-3DE3F9E510E6">
+<createdBy>sharedo</createdBy>
+<createdTime>2020-05-28 16:42:18 UTC</createdTime>
+<generatorID>82E3522F-D2BF-6630-FA27-53CD70CB942D</generatorID>
+<ownerDesignName>deliveryDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>7 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="18F52647-8BFF-E1C5-E270-D54B36D29244" referredColumn="E7952945-7268-F303-C9F0-54723B0A551B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1E8F20AE-8EF5-8DAA-0518-35331119B30F" name="ORD_PK">
+<createdBy>sharedo</createdBy>
+<createdTime>2020-05-28 16:42:18 UTC</createdTime>
+<generatorID>E2DE5197-845F-58FF-3A57-D58915E64ABC</generatorID>
+<ownerDesignName>deliveryDB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="30B5A3F1-BFC4-5348-898B-509063DEAF46"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7A43F9C7-8E46-3310-E641-1DF94562FADC" name="ORD_CLT_FK">
+<createdBy>sharedo</createdBy>
+<createdTime>2020-05-28 16:42:18 UTC</createdTime>
+<generatorID>1A2C2703-AB97-F6C7-3A17-E63E97C2FA17</generatorID>
+<ownerDesignName>deliveryDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="35337EC8-973C-D265-43F9-3DE3F9E510E6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B0F8C376-2FBD-C5AC-7909-B38872E110BC" name="ORD_DLV_FK">
+<createdBy>sharedo</createdBy>
+<createdTime>2020-05-28 16:42:18 UTC</createdTime>
+<generatorID>F6ADA1F2-C50C-3C04-198E-BBF529FAE61F</generatorID>
+<ownerDesignName>deliveryDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0643DBA0-0CC2-E0B0-E16F-C629CCE7C5C1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

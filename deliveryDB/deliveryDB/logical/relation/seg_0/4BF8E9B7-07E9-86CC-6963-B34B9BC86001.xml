@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Order_for_Cart" directorySegmentName="seg_0" id="4BF8E9B7-07E9-86CC-6963-B34B9BC86001">
+<createdBy>sharedo</createdBy>
+<createdTime>2020-05-28 15:56:43 UTC</createdTime>
+<ownerDesignName>deliveryDB</ownerDesignName>
+<engineerTo>
+<item key="F0D0D23F-F0FD-6FA8-746E-00BE00A182B4" value="true"/>
+</engineerTo>
+<sourcePk>E2DE5197-845F-58FF-3A57-D58915E64ABC</sourcePk>
+<targetPk>C5C0508A-E58B-4D3B-969B-EB4F386D26CD</targetPk>
+<identifying>true</identifying>
+<nameOnSource>for</nameOnSource>
+<nameOnTarget>belongs to</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E3521542-A0F1-744D-2D12-34FB1ADDCE1F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D735BC07-7A3A-6F09-91BA-8FCC6C5A6B77</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

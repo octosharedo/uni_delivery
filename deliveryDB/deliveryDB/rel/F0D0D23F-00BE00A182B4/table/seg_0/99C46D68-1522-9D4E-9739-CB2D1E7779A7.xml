@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="99C46D68-1522-9D4E-9739-CB2D1E7779A7" name="PRD">
+<createdBy>sharedo</createdBy>
+<createdTime>2020-05-28 16:42:18 UTC</createdTime>
+<generatorID>FA21AACD-4F7B-CF0E-F1F7-DB3FD5347DA5</generatorID>
+<ownerDesignName>deliveryDB</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="702612CF-93EC-E904-FE13-3B8FE8D2F3EB">
+<createdBy>sharedo</createdBy>
+<createdTime>2020-05-28 16:42:18 UTC</createdTime>
+<generatorID>6B095EA1-F0D0-10CE-D226-96D5ADA027ED</generatorID>
+<ownerDesignName>deliveryDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>7 CHAR</dataTypeSize>
+<ownDataTypeParameters>7 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Name" id="86B4FFA6-93D6-8A40-8721-669D557F765C">
+<createdBy>sharedo</createdBy>
+<createdTime>2020-05-28 16:42:18 UTC</createdTime>
+<generatorID>C7F3242B-0168-38D8-974B-114F08F51862</generatorID>
+<ownerDesignName>deliveryDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Category" id="FA76BDF7-D33A-880E-A44A-3885EB1B8C15">
+<createdBy>sharedo</createdBy>
+<createdTime>2020-05-28 16:42:18 UTC</createdTime>
+<generatorID>8253D6FD-856D-D4F9-6B99-9CB6F6FF879A</generatorID>
+<ownerDesignName>deliveryDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Price" id="488069F9-1DED-CCEB-6CA2-8E7D8636B41E">
+<createdBy>sharedo</createdBy>
+<createdTime>2020-05-28 16:42:18 UTC</createdTime>
+<generatorID>22AE6B1F-E080-487F-893A-FD679EA10578</generatorID>
+<ownerDesignName>deliveryDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Description" id="F6A1D9A0-05C0-F0F8-CF1E-34E9AF8F4CA4">
+<createdBy>sharedo</createdBy>
+<createdTime>2020-05-28 16:42:18 UTC</createdTime>
+<generatorID>9C6686C8-910A-327E-684D-1F77FB27E215</generatorID>
+<ownerDesignName>deliveryDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C9075316-BEF9-1561-1FC6-E419F0BC523A" name="PRD_PK">
+<createdBy>sharedo</createdBy>
+<createdTime>2020-05-28 16:42:18 UTC</createdTime>
+<generatorID>AC1B0918-3F8A-2031-60EA-7CADE6454EC5</generatorID>
+<ownerDesignName>deliveryDB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="702612CF-93EC-E904-FE13-3B8FE8D2F3EB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

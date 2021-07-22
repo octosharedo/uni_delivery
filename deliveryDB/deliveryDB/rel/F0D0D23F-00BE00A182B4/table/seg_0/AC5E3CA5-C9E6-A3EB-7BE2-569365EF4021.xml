@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AC5E3CA5-C9E6-A3EB-7BE2-569365EF4021" name="OPR">
+<createdBy>sharedo</createdBy>
+<createdTime>2020-05-28 16:42:18 UTC</createdTime>
+<generatorID>D735BC07-7A3A-6F09-91BA-8FCC6C5A6B77</generatorID>
+<ownerDesignName>deliveryDB</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Quantity" id="FDA7B4AA-3E82-851F-EBF5-12893B1EB5CA">
+<createdBy>sharedo</createdBy>
+<createdTime>2020-05-28 16:42:18 UTC</createdTime>
+<generatorID>228793E1-06D8-8233-04F4-94575AC036A4</generatorID>
+<ownerDesignName>deliveryDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ORD_ID" id="31DC1BB6-F019-1D34-8CE4-C5AFAF9F64C5">
+<createdBy>sharedo</createdBy>
+<createdTime>2020-05-28 16:42:18 UTC</createdTime>
+<generatorID>CAEAEF17-6024-9154-5176-602264D2CDF7</generatorID>
+<ownerDesignName>deliveryDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>7 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C60F078C-F5AE-19EB-4027-7389BF613216" referredColumn="30B5A3F1-BFC4-5348-898B-509063DEAF46"/>
+</associations>
+</Column>
+<Column name="PRD_ID" id="1CBA9E25-ED4C-8153-AF5F-65CD86DFE4E1">
+<createdBy>sharedo</createdBy>
+<createdTime>2020-05-28 16:42:18 UTC</createdTime>
+<generatorID>1577656A-8FBE-DAC8-AB08-33242B84C98F</generatorID>
+<ownerDesignName>deliveryDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>7 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="435B0EDE-A0F1-89AC-500B-EB0A14841244" referredColumn="702612CF-93EC-E904-FE13-3B8FE8D2F3EB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7546216D-FC86-E0A2-AC57-6E1D1742F5B9" name="OPR_PK">
+<createdBy>sharedo</createdBy>
+<createdTime>2020-05-28 16:42:18 UTC</createdTime>
+<generatorID>C5C0508A-E58B-4D3B-969B-EB4F386D26CD</generatorID>
+<ownerDesignName>deliveryDB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="31DC1BB6-F019-1D34-8CE4-C5AFAF9F64C5"/>
+<colUsage columnID="1CBA9E25-ED4C-8153-AF5F-65CD86DFE4E1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="97112A22-35E9-6DFE-C4D7-11AD689BBE04" name="OPR_PRD_FK">
+<createdBy>sharedo</createdBy>
+<createdTime>2020-05-28 16:42:18 UTC</createdTime>
+<generatorID>65AE67DC-E818-4267-53A8-2D0895699579</generatorID>
+<ownerDesignName>deliveryDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1CBA9E25-ED4C-8153-AF5F-65CD86DFE4E1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F5814895-1447-436B-7320-070F66B9B225" name="OPR_ORD_FK">
+<createdBy>sharedo</createdBy>
+<createdTime>2020-05-28 16:42:18 UTC</createdTime>
+<generatorID>4BF8E9B7-07E9-86CC-6963-B34B9BC86001</generatorID>
+<ownerDesignName>deliveryDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="31DC1BB6-F019-1D34-8CE4-C5AFAF9F64C5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

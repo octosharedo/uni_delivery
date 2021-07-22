@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="D049C4F6-1634-555F-AB58-66D390758F5C">
+<createdBy>sharedo</createdBy>
+<createdTime>2020-05-28 10:14:50 UTC</createdTime>
+<ownerDesignName>deliveryDB</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

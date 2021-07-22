@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="32E60D8A-5336-076D-F20F-47AD5E19121B" name="STORED PRODUCT">
+<createdBy>sharedo</createdBy>
+<createdTime>2020-05-28 16:17:37 UTC</createdTime>
+<ownerDesignName>deliveryDB</ownerDesignName>
+<engineerTo>
+<item key="F0D0D23F-F0FD-6FA8-746E-00BE00A182B4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>SPR</preferredAbbreviation>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="E91E3E12-273F-94CB-2E00-BC03BFC1AA0F">
+<createdBy>sharedo</createdBy>
+<createdTime>2020-05-28 16:19:06 UTC</createdTime>
+<generatorID>D8D7F12B-F26D-7D90-2403-813A327BD8E1</generatorID>
+<ownerDesignName>deliveryDB</ownerDesignName>
+<engineerTo>
+<item key="F0D0D23F-F0FD-6FA8-746E-00BE00A182B4" value="true"/>
+</engineerTo>
+<referedAttribute>6B095EA1-F0D0-10CE-D226-96D5ADA027ED</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>7 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID1" id="482BBA5E-2642-FFA0-E24A-E82DE2130F0A">
+<createdBy>sharedo</createdBy>
+<createdTime>2020-05-28 16:19:22 UTC</createdTime>
+<generatorID>ECA66F7C-5951-CDEB-73A6-3FE8756C889E</generatorID>
+<ownerDesignName>deliveryDB</ownerDesignName>
+<engineerTo>
+<item key="F0D0D23F-F0FD-6FA8-746E-00BE00A182B4" value="true"/>
+</engineerTo>
+<referedAttribute>57D816EF-AB42-CD74-084D-AFF0247B86D0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Quantity" id="CAD0D608-1FEA-8CCE-999D-E63421EE93AA">
+<createdBy>sharedo</createdBy>
+<createdTime>2020-05-28 16:19:38 UTC</createdTime>
+<ownerDesignName>deliveryDB</ownerDesignName>
+<engineerTo>
+<item key="F0D0D23F-F0FD-6FA8-746E-00BE00A182B4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C680975B-63C3-8433-115D-805D8AD956F2" name="STORED PRODUCT PK">
+<createdBy>sharedo</createdBy>
+<createdTime>2020-05-28 16:19:06 UTC</createdTime>
+<ownerDesignName>deliveryDB</ownerDesignName>
+<engineerTo>
+<item key="F0D0D23F-F0FD-6FA8-746E-00BE00A182B4" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E91E3E12-273F-94CB-2E00-BC03BFC1AA0F</attributeRef>
+<attributeRef>482BBA5E-2642-FFA0-E24A-E82DE2130F0A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

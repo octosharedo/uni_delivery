@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C40DA542-F7D2-C90A-A4B6-294069AF8B46" name="SPR">
+<createdBy>sharedo</createdBy>
+<createdTime>2020-05-28 16:42:18 UTC</createdTime>
+<generatorID>32E60D8A-5336-076D-F20F-47AD5E19121B</generatorID>
+<ownerDesignName>deliveryDB</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PRD_ID" id="D183281A-C5C1-14C1-87EB-3646353F0C53">
+<createdBy>sharedo</createdBy>
+<createdTime>2020-05-28 16:42:18 UTC</createdTime>
+<generatorID>E91E3E12-273F-94CB-2E00-BC03BFC1AA0F</generatorID>
+<ownerDesignName>deliveryDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>7 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="29BEF5D4-921E-3F97-97CF-4D7E3D2E0FDE" referredColumn="702612CF-93EC-E904-FE13-3B8FE8D2F3EB"/>
+</associations>
+</Column>
+<Column name="WRH_ID" id="1076D475-DB49-7267-91C4-22F0A655F171">
+<createdBy>sharedo</createdBy>
+<createdTime>2020-05-28 16:42:18 UTC</createdTime>
+<generatorID>482BBA5E-2642-FFA0-E24A-E82DE2130F0A</generatorID>
+<ownerDesignName>deliveryDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D4F04651-90A6-71A0-4FFF-654A7960EB88" referredColumn="AF2DC1C3-64D4-928C-2EB6-F6D0E27B8732"/>
+</associations>
+</Column>
+<Column name="Quantity" id="F6D51893-6D20-7218-EA28-2FB43850217D">
+<createdBy>sharedo</createdBy>
+<createdTime>2020-05-28 16:42:18 UTC</createdTime>
+<generatorID>CAD0D608-1FEA-8CCE-999D-E63421EE93AA</generatorID>
+<ownerDesignName>deliveryDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="310BA6BA-CFF5-6B81-A46A-D011DC090708" name="SPR_PK">
+<createdBy>sharedo</createdBy>
+<createdTime>2020-05-28 16:42:18 UTC</createdTime>
+<generatorID>C680975B-63C3-8433-115D-805D8AD956F2</generatorID>
+<ownerDesignName>deliveryDB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D183281A-C5C1-14C1-87EB-3646353F0C53"/>
+<colUsage columnID="1076D475-DB49-7267-91C4-22F0A655F171"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="267B2032-F6F6-53BF-03EC-4ACDD7D8EAE1" name="SPR_PRD_FK">
+<createdBy>sharedo</createdBy>
+<createdTime>2020-05-28 16:42:18 UTC</createdTime>
+<generatorID>D8D7F12B-F26D-7D90-2403-813A327BD8E1</generatorID>
+<ownerDesignName>deliveryDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D183281A-C5C1-14C1-87EB-3646353F0C53"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4A13E8AE-C3B3-5C7E-2818-DF1F9D01C285" name="SPR_WRH_FK">
+<createdBy>sharedo</createdBy>
+<createdTime>2020-05-28 16:42:18 UTC</createdTime>
+<generatorID>ECA66F7C-5951-CDEB-73A6-3FE8756C889E</generatorID>
+<ownerDesignName>deliveryDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1076D475-DB49-7267-91C4-22F0A655F171"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

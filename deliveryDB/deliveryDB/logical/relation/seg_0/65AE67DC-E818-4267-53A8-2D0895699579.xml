@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Cart_has_Products" directorySegmentName="seg_0" id="65AE67DC-E818-4267-53A8-2D0895699579">
+<createdBy>sharedo</createdBy>
+<createdTime>2020-05-28 13:34:25 UTC</createdTime>
+<ownerDesignName>deliveryDB</ownerDesignName>
+<engineerTo>
+<item key="F0D0D23F-F0FD-6FA8-746E-00BE00A182B4" value="true"/>
+</engineerTo>
+<sourcePk>AC1B0918-3F8A-2031-60EA-7CADE6454EC5</sourcePk>
+<targetPk>C5C0508A-E58B-4D3B-969B-EB4F386D26CD</targetPk>
+<identifying>true</identifying>
+<nameOnSource>is on</nameOnSource>
+<nameOnTarget>has</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>FA21AACD-4F7B-CF0E-F1F7-DB3FD5347DA5</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D735BC07-7A3A-6F09-91BA-8FCC6C5A6B77</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
